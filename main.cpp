@@ -4,8 +4,6 @@
 using namespace std;
 
 void reverse(string &inputString) {
-
-    cout << inputString.length() << endl;
     stack<int> myStack;
 
     for (auto var: inputString) {
