@@ -108,7 +108,6 @@ void Queue::removeAll() {
     this->empty_ = true;
 }
 
-
 int main() {
 
     unsigned int task = 0;   // Select task
@@ -175,5 +174,7 @@ int main() {
                         break;
                 }
             } while (option != 5);
+        default:
+            break;
     }
 }
