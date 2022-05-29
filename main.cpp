@@ -79,7 +79,6 @@ void Queue::removeFirst() {
 }
 
 void Queue::display() {
-    cout << "2. " << this->start_->next->element << '\n';
     if (!size()) {
       cout << "Queue is empty - nothing to display" << '\n';
       return;
