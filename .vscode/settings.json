@@ -52,6 +52,7 @@
     "streambuf": "cpp",
     "typeinfo": "cpp",
     "stack": "cpp",
-    "source_location": "cpp"
+    "source_location": "cpp",
+    "variant": "cpp"
   }
 }
