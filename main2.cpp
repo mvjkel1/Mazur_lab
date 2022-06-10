@@ -112,6 +112,9 @@ void LinkedList::removeElements(int val) {
       if (iter->data == val) {
         remove(iter);
         count++;
+      } else {
+        cout << "0" << '\n';
+        break;
       }
       iter = iter->next;
     }
