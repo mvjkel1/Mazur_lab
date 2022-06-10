@@ -53,6 +53,7 @@
     "typeinfo": "cpp",
     "stack": "cpp",
     "source_location": "cpp",
-    "variant": "cpp"
+    "variant": "cpp",
+    "regex": "cpp"
   }
 }
