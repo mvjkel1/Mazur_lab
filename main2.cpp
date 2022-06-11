@@ -50,7 +50,6 @@ void LinkedList::pushAtGivenPos(int val, int pos) {
   if (pos < 1) {
     return;
   } else if (pos == 1) {
-    // consider using just pushBack function instead
     newNode->next = head;
     head->prev = newNode;
     head = newNode;
@@ -64,9 +63,6 @@ void LinkedList::pushAtGivenPos(int val, int pos) {
         tempHead = tempHead->next;
       } else {
         pushBack(val);
-        // consider using return in case of seg fault
-        // especially when there is situation of adding
-        // val at not-existing position of the list
         break;
       }
     }
