@@ -70,7 +70,8 @@ void Queue::add(int val) {
 
 void Queue::removeFirst() {
     if (!size()) {
-        std::cout << "Queue is empty - nothing to remove (removeFirst)" << '\n';
+        cout << "Queue is empty - nothing to remove (removeFirst)" << '\n';
+        return;
     }
     this->queueItem_ = this->start_;
     this->start_ = this->start_->next;
@@ -97,6 +98,7 @@ void Queue::display() {
 void Queue::removeAll() {
     if (!size()) {
         cout << "Queue is empty - nothing to remove (removeAll)" << '\n';
+        return;
     }
     unsigned int index = 0;
     while (this->endIndex_ - this->startIndex_) {
